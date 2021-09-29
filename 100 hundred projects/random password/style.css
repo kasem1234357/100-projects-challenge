@@ -9,6 +9,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	font-size: 15px;
 	background: #001925;
 }
 .box 
@@ -55,6 +56,7 @@ body{
 .option{
 	margin: 0;
 	overflow: hidden;
+	width:100%;
 }
 .list{
 	padding: 10px 100px 10px 10px;
