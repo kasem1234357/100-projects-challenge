@@ -65,6 +65,5 @@ img.forEach((photo,index) => {
 })
 closex.addEventListener('click',()=>{
     model.style.display = `none`
-    document.body.style.background = `#fff`;
        document.querySelector('.container').style.opacity = `1`
 })
