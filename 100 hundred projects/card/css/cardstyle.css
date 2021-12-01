@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #ebf5fc;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 1100px;
+
+}
+.container .card{
+	width: 320px;
+	text-align: center;
+	background: #ebf5fc;
+	box-shadow:-6px -6px 20px  rgba(255,255,255,1),
+	            6px 6px 20px  rgba(0,0,0,0.1);
+	border-radius: 40px;
+	padding: 40px 30px;
+	margin: 20px;
+	min-height: 513px;
+}
+.container .card:hover{
+	box-shadow: inset -6px -6px 20px  rgba(255,255,255,1),
+	           inset 6px 6px 20px  rgba(0,0,0,0.1);
+}
+.container .card .imgbx
+{
+ width: 100%;
+ 
+ text-align: center;
+}
+.container .card .imgbx img{
+	max-width: 120px;
+}
+.container .card .textbx{
+	position: relative;
+	margin-top: 20px;
+}
+.container .card .textbx h2{
+	color: #32a3b1;
+	font-weight: 700;
+	font-size: 1.4em;
+	letter-spacing: 2px;
+}
+.container .card .textbx p
+{
+	color: #32a3b1;
+}
+.container .card .textbx a{
+	color: #32a3b1;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 40px;
+	margin-top: 15px;
+	box-shadow:-4px -4px 15px  rgba(255,255,255,1),
+	            4px 4px 15px  rgba(0,0,0,0.1);
+	font-size: 17px;
+	padding: 10px 20px;
+}
+.container .card .textbx a:hover{
+	box-shadow: inset -4px -4px 10px  rgba(255,255,255,0.5),
+	           inset 4px 4px 10px  rgba(0,0,0,0.1);
+}
+.container .card .textbx a:hover span
+{
+	display: block;
+	transform: scale(0.98);
+}
+.container .card:hover .imgbx,
+.container .card:hover .textbx
+{
+	
+	transform: scale(0.98);
+}
