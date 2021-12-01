@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body
+{
+    background: url('hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 104vh;
+    z-index: -1;
+    background: rgba(0, 0, 0,0.5);
+}
+.txtType > .txt 
+{
+    border-right: 1px solid #333;
+    color: #f4a261;
+    font-size: 40px;
+    z-index: 1000;
+}
+h1
+{
+    color: #fff;
+    margin-top: 70px;
+}
